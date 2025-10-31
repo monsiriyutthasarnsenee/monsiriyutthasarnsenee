@@ -1,0 +1,708 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Monsiri Yutthasarnsenee</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="29dd9026-c625-8053-a4af-f871678f950d" class="page sans"><header><h1 class="page-title"><strong>Monsiri Yutthasarnsenee</strong></h1><p class="page-description"></p></header><div class="page-body"><hr id="29dd9026-c625-81b2-abfa-ee7c821be26c"/><div id="29dd9026-c625-81cf-b1c9-f4eddce6228d" class="column-list"><div id="29dd9026-c625-81fc-b624-fe0edd210938" style="width:25%" class="column"><figure id="29dd9026-c625-80e6-a7aa-f0d105013043" class="image"><a href="Monsiri%20Yutthasarnsenee/815db332-9bb9-47d4-8926-e0b12e547164.png"><img style="width:192px" src="Monsiri%20Yutthasarnsenee/815db332-9bb9-47d4-8926-e0b12e547164.png"/></a></figure><h1 id="29dd9026-c625-81ea-ae6e-db944569740a" class="">Skill Set</h1><hr id="29dd9026-c625-8139-9313-cd41a8267707"/><p id="29dd9026-c625-8078-8eea-db9ca8748587" class=""><strong>Hard Skills</strong></p><ul id="29dd9026-c625-80d3-b64b-c480daf8e01d" class="bulleted-list"><li style="list-style-type:disc">Data Analysis Tools : Microsoft Excel</li></ul><ul id="29dd9026-c625-8078-8b7f-ce12b2ff4e69" class="bulleted-list"><li style="list-style-type:disc">Presentation Tools : PowerPoint, Canva, Google Slides</li></ul><ul id="29dd9026-c625-80e6-8e53-c8dbba49fd31" class="bulleted-list"><li style="list-style-type:disc">Requirements Gathering &amp; Documentation</li></ul><ul id="29dd9026-c625-80e2-aa75-c34910c8a5e8" class="bulleted-list"><li style="list-style-type:disc">Project Management Basics</li></ul><p id="29dd9026-c625-806f-a42c-dc994fcb5baa" class="">
+</p><p id="29dd9026-c625-80b4-b41e-e23b777fd148" class=""><strong>Soft Skills</strong></p><ul id="29dd9026-c625-8063-8b8e-cf0964a1f796" class="bulleted-list"><li style="list-style-type:disc">Communication Skills</li></ul><ul id="29dd9026-c625-8094-846f-c34cb5a3e415" class="bulleted-list"><li style="list-style-type:disc">Teamwork &amp; Collaboration</li></ul><ul id="29dd9026-c625-8053-9b93-e8422f696c48" class="bulleted-list"><li style="list-style-type:disc">Innovative and creative problem-solver</li></ul><ul id="29dd9026-c625-8098-8c7c-c2e3a795870b" class="bulleted-list"><li style="list-style-type:disc">Time Management</li></ul><ul id="29dd9026-c625-8004-a468-fc31f05760c3" class="bulleted-list"><li style="list-style-type:disc">Adaptability / Flexibility</li></ul><ul id="29dd9026-c625-8027-b883-ca06b2b6ac85" class="bulleted-list"><li style="list-style-type:disc">Critical Thinking</li></ul><ul id="29dd9026-c625-8062-8e49-c401370b41a4" class="bulleted-list"><li style="list-style-type:disc">Attention to Detail</li></ul><ul id="29dd9026-c625-80fe-bdb6-c3045de88f4a" class="bulleted-list"><li style="list-style-type:disc">Presentation &amp; Reporting</li></ul><h1 id="29dd9026-c625-8148-be96-cbec399b1311" class="">Certifications</h1><hr id="29dd9026-c625-80bc-b944-f3cc579a892e"/><p id="29dd9026-c625-80f5-8ddf-caca73ec937a" class="">Actively exploring online courses and future certifications related to Business Analysis and Data Analytics.</p><hr id="29dd9026-c625-8103-abef-e4eccbb4638c"/><figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-819d-958f-f813c72dc997"><div style="font-size:1.5em"><img class="icon notion-static-icon" src="https://www.notion.so/icons/arrow-right_gray.svg"/></div><div style="width:100%"><em>To be added soon.</em></div></figure><figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-81e9-979a-cb5e46a9ceee"><div style="font-size:1.5em"><img class="icon notion-static-icon" src="https://www.notion.so/icons/arrow-right_gray.svg"/></div><div style="width:100%"><em>To be added soon.</em></div></figure><figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-812e-abdc-d27c4cc5a8f7"><div style="font-size:1.5em"><img class="icon notion-static-icon" src="https://www.notion.so/icons/arrow-right_gray.svg"/></div><div style="width:100%"><em>To be added soon.</em></div></figure><h1 id="29dd9026-c625-81a9-99ea-f1d3b2ea74f9" class="">Education</h1><hr id="29dd9026-c625-8145-a5b4-e62a3d1d6a0e"/><p id="29dd9026-c625-804b-9e7b-e174ac9fbfbe" class="">Mahidol University, Faculty of Information and Communication Technology<br/>2025 – 2029 (expected)</p></div><div id="29dd9026-c625-8198-8342-ddda242baf57" style="width:75%" class="column"><h1 id="29dd9026-c625-8168-952c-d29f35df529d" class="">About Me</h1><hr id="29dd9026-c625-81c2-8cc9-f62100c80e1d"/><p id="29dd9026-c625-8066-98f3-cd72adcaf4ca" class="">I’m a first-year ICT student at Mahidol University with a keen interest in bridging technology and business strategy. I’m passionate about <strong>data-driven decision making</strong>, improving operational efficiency, and supporting evidence-based business analysis.Currently learning to apply analytical tools, gather system requirements, and communicate effectively with stakeholders in dynamic, data-driven environments.</p><div id="29dd9026-c625-815b-911a-c588dd396e89" class="column-list"><div id="29dd9026-c625-8130-a93c-cfed30aa3b20" style="width:93.75%" class="column"><figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-8123-8724-e1924980630e"><div style="font-size:1.5em"><img class="icon notion-static-icon" src="https://www.notion.so/icons/phone-call_gray.svg"/></div><div style="width:100%">+66-80-914-9398</div></figure><figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-81ca-bea5-e9292fb00947"><div style="font-size:1.5em"><img class="icon notion-static-icon" src="https://www.notion.so/icons/invitation_gray.svg"/></div><div style="width:100%"><a href="mailto:monsiri.yuh@student.mahidol.ac.th">monsiriyutthasarnsenee@gmail.com</a></div></figure></div><div id="29dd9026-c625-8112-8982-f241d2fde225" style="width:93.75000000000001%" class="column"><figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-819a-88a2-f2924aa566d1"><div style="font-size:1.5em"><img class="icon" src="https://i.pinimg.com/736x/92/d1/db/92d1db1521d374335498624cc95e9554.jpg"/></div><div style="width:100%"><p id="29dd9026-c625-80ba-8cc8-c10a4a1db4b1" class=""><a href="http://www.linkedin.com/in/monsiri-yutthasarnsenee">http://www.linkedin.com/in/monsiri-yutthasarnsenee</a></p></div></figure><figure class="block-color-default callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-8014-982f-d4e4a67cb39e"><div style="font-size:1.5em"><img class="icon notion-static-icon" src="https://www.notion.so/icons/map-pin-alternate_gray.svg"/></div><div style="width:100%">Buriram, Thailand 31000  Relocating to Bangkok</div></figure></div></div><h1 id="29dd9026-c625-8103-970a-c2c180ae1e3e" class="">My Services</h1><p id="29dd9026-c625-81e5-b9b4-f4d4960b6d2a" class="">Checkout services offered by me</p><hr id="29dd9026-c625-8108-94be-fcd0ac190b6a"/><div id="29dd9026-c625-81d6-ab4d-d7c3b401b22b" class="collection-content"><h4 class="collection-title">Services</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><img src="https://www.notion.so/icons/font_gray.svg" style="width:14px;height:14px;display:block"/></span>Name</th></tr></thead><tbody><tr id="29dd9026-c625-8110-be24-f13d6a374b65"><td class="cell-title"><a href="https://www.notion.so/Presentation-Design-PowerPoint-Canva-29dd9026c6258110be24f13d6a374b65?pvs=21"><img class="icon notion-static-icon" src="https://www.notion.so/icons/kind_gray.svg"/>Presentation Design (PowerPoint, Canva)</a></td></tr><tr id="29dd9026-c625-811b-9211-fcfe79e14244"><td class="cell-title"><a href="https://www.notion.so/Project-Collaboration-29dd9026c625811b9211fcfe79e14244?pvs=21"><img class="icon notion-static-icon" src="https://www.notion.so/icons/extension_gray.svg"/>Project Collaboration</a></td></tr><tr id="29dd9026-c625-81cb-8634-d729e6310839"><td class="cell-title"><a href="https://www.notion.so/Tech-Skills-Support-29dd9026c62581cb8634d729e6310839?pvs=21"><img class="icon notion-static-icon" src="https://www.notion.so/icons/laptop_gray.svg"/>Tech Skills Support</a></td></tr><tr id="29dd9026-c625-8190-bf88-c4cf38736ebc"><td class="cell-title"><a href="https://www.notion.so/Creative-Design-ServicesCommunity-Management-29dd9026c6258190bf88c4cf38736ebc?pvs=21"><img class="icon notion-static-icon" src="https://www.notion.so/icons/create_gray.svg"/>Creative &amp; Design ServicesCommunity Management</a></td></tr><tr id="29dd9026-c625-81b7-a795-f66c7ffaa60a"><td class="cell-title"><a href="https://www.notion.so/Project-Communication-Services-29dd9026c62581b7a795f66c7ffaa60a?pvs=21"><img class="icon notion-static-icon" src="https://www.notion.so/icons/conversation_gray.svg"/>Project &amp; Communication Services</a></td></tr><tr id="29dd9026-c625-81fa-ab49-db5a6244b322"><td class="cell-title"><a href="https://www.notion.so/Content-Creation-29dd9026c62581faab49db5a6244b322?pvs=21"><img class="icon notion-static-icon" src="https://www.notion.so/icons/movie-clapboard-play_gray.svg"/>Content Creation</a></td></tr></tbody></table><br/><br/></div><h1 id="29dd9026-c625-81dc-a86c-c9bf54cd4a8b" class="">Tools</h1><hr id="29dd9026-c625-81de-bdcd-f327fc527e0c"/><div id="29dd9026-c625-81e5-8918-f856f5ccb171" class="collection-content"><h4 class="collection-title">Tools</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><img src="https://www.notion.so/icons/font_gray.svg" style="width:14px;height:14px;display:block"/></span>Name</th><th><span class="icon property-icon"><img src="https://www.notion.so/icons/arrow-circle-down_gray.svg" style="width:14px;height:14px;display:block"/></span>Level of expertise</th></tr></thead><tbody><tr id="29dd9026-c625-81cd-b78d-e0aa607d77e1"><td class="cell-title"><a href="https://www.notion.so/Notion-29dd9026c62581cdb78de0aa607d77e1?pvs=21"><img class="icon notion-static-icon" src="https://www.notion.so/icons/notion_gray.svg"/>Notion</a></td><td class="cell-q?me"><span class="selected-value select-value-color-green">Expert</span></td></tr><tr id="29dd9026-c625-8100-a5f2-e4296c450801"><td class="cell-title"><a href="https://www.notion.so/Canva-29dd9026c6258100a5f2e4296c450801?pvs=21"><img class="icon" src="https://carmentune.com/wp-content/uploads/Canva-logo.png"/>Canva</a></td><td class="cell-q?me"><span class="selected-value select-value-color-green">Expert</span></td></tr><tr id="29dd9026-c625-8167-a193-c0889c6ffac7"><td class="cell-title"><a href="https://www.notion.so/Meta-Business-Suite-29dd9026c6258167a193c0889c6ffac7?pvs=21"><img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAA3lBMVEUAAAD///+lpaUBgPkAdO4BZuIBcu0BbegBb+oBa+YBaOMBevQBfvcBe/UBd/EAae4AXuMAdvcAa+4Ae/j1+f4Abu0AYuMAZekAcvUAYOIAZOIAWd8AdfUAfvvl7/0AePjv9f5wo/QAVd/c6v7I2/vR4vyFrfVsofJ/pO9al/OmwPqqxPOqy/yHqO15m+osdea41PxFkPcsh/g1i/iDs/tHkPYAcfqRufyXvflkmPNVnPxBh/AAY/C+1/0yfuy1yfZbju2muvGSru80cORjjuljmO0AS93F0vdhiOdGgOc+3fqnAAALMklEQVR4nO3dWXeiSBQA4GEUUKMGWWSRBA1qTGwlMaZjpxPN0pmM//8PTbEUUAoKFA9DyT19fIjGc/L1rZVL8ddf+cbf1P86/s75z807Sj6sKPmwouTDipIPK0o+rCj5sKLkw4qSDytKPqwo+bCi5MOKkg8rSj6sKPmwouTDipIPK0o+rCj5sCJfPhFErl94Enx98266fL5/WDjxcP+8nL6a/Ty+mXQ+0bxbPlbOdEU3hFYL/GuCV8HoGK3F/XJj4uYi0XzicHlv8LpwZqMBuSAqlUrzwlCM++UQKwvJ5RNHg8VPvX3WCgLhc6JpKIvBMHsOksrXv/3NAzs7PLr9/PMEBeVhlTUFyeQzx4ri2gV+UfnXhDnYGZglnxeXX+d6gBfn1wz5VSoXynMWQPL4+oMXvQ1iz6950K9y8fP6suQb8lLbi2P5V0H9KsLFU9pBhDg+ankewWf72a+CIIQEd/0qxsPrqfNRY37Pr60rvN6qgBWHvfJo6krHECL9LoxlqgQkkI8a+/lnA7YVpXU/WH2PzH7fXvP2++bodTW4b4KVx74fSMDRifNRAz//qrrx8PQaOSRcvj49CB1hz+/C+HHifNBPVx5uD05HzNuHjrHrV1GWp8f3a7LrxyvjBFM5c9Ixmjt+neekHSAhfOJv/hzxm7ww04QE4kroVNAQFglXcWTw9ddStYr6pZqBrCoGmn8XlWRrECL4Lm094DdOQ4aEuHQHkVAkGoBJ4AO5xzAMnh9lPitoAibKPwL4RJB7DL4ftRKQBLxI0v8RwPfI2y03B7/Rg4H4PZwC30SuOnI5+IkDZAg2BuTz3cqM13KdFzw/6klB5n8r0vlGHMMEftj5R/1A/JRj05+C8/XbNSbs5+TfAMfv9Scy/B7ZQS043w3PMGG/quM3OfxLR/zC+XfxTDLfVK4xqF8O7fcunH/G4e6v0HyXVTbMl9f4cYvMXw7OngvN98XXQLh0kpRf/o1DfsLB5ltkvqFcq0E/6WZynp/fc2j9YdwRyreWatCv1r6krvPzu1yEqhAWZPJtvOSz/bhvym7LufmFh99Dm/cF5quzPp/sTlVu8su/ZWj5JpDIN+V8PdbyNte/UL9Bdj4x1Hw78elXXL5akHwv/tpqp//DmD+/hrf/yOO7C5JP+hX8eCDnlX/Pgl/FpsQOvoXle5N8Pi48sx04yziPD8fPVPzrb81H0vhMzm+70hfyzuCcyWf/4Evw/ZS4Cx9F5ZvJLPTjdnZF8vID6Qf9hLgL5wXlE6066/lJb7tveuMHdvt9BGsPrwpwEXPdvKB8wyuW9fy4/Ya1M3++zsg3DOZ+P4dE8U26rOdXZyLevkHb71fER5JEq+XPnAck8fWtBlt3/eTbqA+g82f+Jhvfykk/5yaQmKuWxeQbgYHD5WP56O30ayT/+Gz5Zwp+/bMRPfYWk+9DZb2g9wYOL3bmz9n6v0fPr1kxngji29KQT36P+9PzmL/cdmD9fczMuZB8oOtzmi54oeMreYL8c9pvFr+RAO9fiOn8Csk36tbrbtdXtw788dfY+Scu/Ps/hMj/p0Lybbi656cdHFMdPwZn/+DZL8BXNsTwzezsc/y4wyWkN7jzZ7vzc/2MyHVbIfnetLrnp8WsBmB8Yc6fhwa8gSb6ilsh+Sza46uzx25DQ/1Sz58v/RuQWpHlakXk67MNl6/esI6WwKP7z2nnz+IiuIMraugtIp9JQz763+MC6Pwlbf/3KEC+VlS5QRH5hl1Pr64lwXDnz0y28XdgQD4jqpstJB8H+dSPRARo+03l96RDvg4pfBsONl7uPZHBdfbrl7eKzxd1vaiIfFOu0XABj0z7/Mh+/feHAseOyKu9ReR79/l6SW+8upEyzp8BX4tEPgcwafZR1LoWHn9fjtZ8h/laRPI1UvC5V39h/vHpss/1I4ZvmppvLIfrT9P0fVPFOYGDJL6Nx9dIOvL6ellGXnj8BjEj7zfkaySb94X07JabRg/M++D5L8TM+4Yq5Osm6cTGSPl9ylXHtQ4P0Im8WFREPlOjPT5tm0jPrx8HeqnXvPD4HIGUNW+/Afno4zsu41D9ONBLvePiH0DUJGXHhbI02HqP7vf5eo7feer9vhbkOyNmv49668L06x7ZbZ4E5ePAT06/26zD86+ESPlC8k1UmnYBj0z8JkEJql1Anv5ax1SB54fpkYXmheTb9CBf91fU+zDGqN4gtR51Y8Dz1wi60jZSG56fdug67wxbT1z453fq5Fzn7X/S0K8bf8feLKjfzahHjXR4ft0ZQVUG1BYMvbQDGL9sC5XvZuv3KHvJ5p9hR1CNC/VhL9scPi3uYhHIPTbwy6ZHPRpQTyepwmrE2XR2/tHd6Jkf0Kv79bu19DMWJ0zdT76Y2vpi8vU/Nc+vob5HfWDCsV4BpaOXtbo0aLtEVZdSc3fmZ6dfPU6PheXPGXOPooIDPPVB9CcKyvd95Ywc9ktvf+Ex4bz6NbeCMnNlPe/zncecSFJQPtFuva6f9mf3zZlfv4alR7355z+3Iys0isvnrttcv6udqd+Mg/VXjt4gq5557h8fG71iKzCf6bRep//roukH9Vw+NbMe9aX7x+/ypN3TBmbO0K+H3LXr67nlk5lbLjUKji+uEndHpTd4gODi9OwamKxjLohfus/HR24XFJqP0tz0681RvUYjpHdwP+ZwvAbJ19ZjP1VcvunVvt7Erz9w9DLOlu0QrWqQfJH3fRWcj+qC9EP7vUmvEeLjMFpu6OD7dluJ/1iB+d579NUsSs+rf8HRG54nSr4i81EWqjcL9Oz6jexjLkVdnjFV6FddH/hgkfm+0TG3Rwd8DW6AoUfdOOdAe8lH6hlWSMz86x+OHk7ugY7POUbR8ZMOjt6k8NktN/Dj5sd/Iz5uPT2br1ol9/y+sB7c/3P0cEYN6k6u+nFw3CCGz2m5vh+e3vCFCfik2OUaQXyTnr9/AF64vR2sNPH6wgR8TPXIwesk8M09Pdevh5V7G9k/AMaupDxSA0IC38TXs/1UrFFjJQf190CP+FPDwdr3n5AeTVsYD4wVU99/VHw+asvRodC22R7WCcL8jdTfS7+P/woBfOKnivhph+casbFyzi72/aT1aTyvg+qjfnTvT/pndVKXb3L4+PtqrZrkS0jgoy4Rv0ajy61SPqtTfJIl5Px2qZ2oDyCCb8fPvv7xGbu/HhVTC6kfBy337ISelGUfjMOhfvRVIzHgVJLZcP04w/BJ+j2C+Cjxz9WOn9brzhI9JVCWg0I2V0/+dWJPCQQxQ/3sF1XdTg8OAOb7WubDRZS2X41Lfl42OXzUptdF8w+8aKq2/RhGPyH1+2NNy1JtJxj2PEW3SRAfZVq9HT6nEXNcfTtHn8/7vZpvWVmWWJbd5ZPXaabdJPFR4kzt7vg5G4C01uV6av3TstaWZX3W5Z6q0XW/gC0UEj8+5adDD62ettN+/YA/DZdfoXwsvz62xUI2HyV+dNWAD/ULFyBEAfL8R8rZNnF8YEiY/9ONyb8w356f9PKVfq1HHh8A/PdKjfFr7PLB+nGae8uwUCaSD4zB8yu3D9xrv5H5V5flebZtLjL5wCru3bpStUT5p3HWKuseK6l8YBAZzj9tQduvEZ2ALEt3e9Z8mHbAOAU+EP3hZKvCJNzjA3TydvKNsblPOB8I0dxMtp+ayqma5hVU0hqYRav053ayMbPn3WnwOdE3v99nb9u19QnCWm9vZu93JlbWwTgJPj/sNW+uX3hafLlHyYcVJR9WlHxYUfJhRcmHFSUfVpR8WFHyYUXJhxUlH1aUfFhR8mFFyYcVJR9WlHxYUfJhRcmHFSUfVuTN9x+fdHiBXNwvSQAAAABJRU5ErkJggg=="/>Meta Business Suite</a></td><td class="cell-q?me"><span class="selected-value select-value-color-green">Expert</span></td></tr><tr id="29dd9026-c625-800f-a0a7-fb460a2589a1"><td class="cell-title"><a href="https://www.notion.so/Capcut-29dd9026c625800fa0a7fb460a2589a1?pvs=21"><img class="icon" src="Monsiri%20Yutthasarnsenee/Tools/Capcut/image.png"/>Capcut</a></td><td class="cell-q?me"><span class="selected-value select-value-color-green">Expert</span></td></tr><tr id="29dd9026-c625-817b-bad1-f596a43e71e7"><td class="cell-title"><a href="https://www.notion.so/Microsoft-Word-29dd9026c625817bbad1f596a43e71e7?pvs=21"><img class="icon" src="Monsiri%20Yutthasarnsenee/Tools/Microsoft%20Word/image.png"/>Microsoft Word</a></td><td class="cell-q?me"><span class="selected-value select-value-color-blue">Intermediate</span></td></tr><tr id="29dd9026-c625-812b-9cc1-d184d47ddd5c"><td class="cell-title"><a href="https://www.notion.so/Microsoft-Excel-Google-Sheets-29dd9026c625812b9cc1d184d47ddd5c?pvs=21"><img class="icon" src="Monsiri%20Yutthasarnsenee/Tools/Microsoft%20Excel%20Google%20Sheets/image.png"/>Microsoft Excel / Google Sheets </a></td><td class="cell-q?me"><span class="selected-value">Beginner</span></td></tr><tr id="29dd9026-c625-81c9-b703-c949f840554c"><td class="cell-title"><a href="https://www.notion.so/Adobe-Photoshop-29dd9026c62581c9b703c949f840554c?pvs=21"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png"/>Adobe Photoshop</a></td><td class="cell-q?me"><span class="selected-value">Beginner</span></td></tr></tbody></table><br/><br/></div><h1 id="29dd9026-c625-816b-8435-fbf30b8b88e4" class="">Work Experience</h1><hr id="29dd9026-c625-8113-82aa-c7d2b4069854"/><figure class="block-color-purple callout" style="white-space:pre-wrap;display:flex" id="29dd9026-c625-8181-ae6b-c65330af5b1f"><div style="font-size:1.5em"><img class="icon notion-static-icon" src="https://www.notion.so/icons/briefcase_gray.svg"/></div><div style="width:100%"><mark class="highlight-blue"><strong>Social Media &amp; Branding Assistant — Family Business<br/></strong></mark><mark class="highlight-purple"><strong>Buriram, Thailand</strong></mark><mark class="highlight-purple"> </mark><mark class="highlight-gray">(2019 - Till Now)</mark><ul id="29dd9026-c625-800f-86e1-df866bcb7c92" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Created and managed the business Facebook Page to promote products and engage customers.</mark></li></ul><ul id="29dd9026-c625-8014-b94e-ceb5792a4fb7" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Analyzed post reach and engagement data to identify effective promotion strategies and optimize audience targeting.</mark></li></ul><ul id="29dd9026-c625-802a-a1c4-db8fd2cc7772" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Designed attractive branding layouts and wrote informative yet concise product descriptions to improve customer understanding.</mark></li></ul><ul id="29dd9026-c625-80d6-b02a-f66409df1723" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default">Improved overall online visibility and customer interaction by applying creative marketing techniques and data-driven insights.</mark></li></ul></div></figure><p id="29dd9026-c625-8028-acfe-f5a8832bb3f6" class="">
+</p></div></div><hr id="29dd9026-c625-8142-9815-e54a47ae4965"/><h1 id="29dd9026-c625-81f0-9269-ef90804ed612" class="">Work Examples</h1><hr id="29dd9026-c625-815c-83c8-d70d63c48f8e"/><div id="29dd9026-c625-8134-a5fa-e36e7b9724c9" class="collection-content"><h4 class="collection-title">Portfolio Items</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><img src="https://www.notion.so/icons/font_gray.svg" style="width:14px;height:14px;display:block"/></span>Name</th></tr></thead><tbody><tr id="29dd9026-c625-8109-8005-dc77f39e7280"><td class="cell-title"><a href="https://www.notion.so/Portfolio-GitHub-29dd9026c62581098005dc77f39e7280?pvs=21"><img class="icon" src="Monsiri%20Yutthasarnsenee/Portfolio%20Items/Portfolio%20GitHub/image.png"/>Portfolio GitHub</a></td></tr></tbody></table><br/><br/></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
