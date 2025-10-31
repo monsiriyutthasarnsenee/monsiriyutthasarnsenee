@@ -1,119 +1,95 @@
-# 👋 Hi there, I'm Monsiri Yutthasarnsenee  
+<p align="center">
+ 
+</p>
 
-🎓 **ICT Student @ Mahidol University (2025–2029 expected)**  
-📍 Buriram, Thailand — *Relocating to Bangkok*  
-📧 [monsiriyutthasarnsenee@gmail.com](mailto:monsiriyutthasarnsenee@gmail.com)  
-🔗 [LinkedIn](http://www.linkedin.com/in/monsiri-yutthasarnsenee)  
-
----
-
-## 💡 About Me  
-
-I’m a **first-year ICT student** passionate about bridging **technology and business strategy**.  
-My goal is to turn data into insights that support **evidence-based decision-making** and improve operational efficiency.  
-
-Currently learning to:  
-- Apply **data analysis** techniques and analytical tools  
-- Gather and document **business/system requirements**  
-- Communicate effectively with **stakeholders** in dynamic environments  
-- Present findings using visual and persuasive storytelling  
+<h1 align="center"> Monsiri Yutthasarnsenee </h1>
+<p align="center">First-year ICT student at Mahidol University | Passionate about bridging technology & business strategy</p>
 
 ---
 
-## 🧠 Skill Set  
+### ☁️ About Me
+I’m a first-year ICT student at Mahidol University, passionate about **data-driven decision making**, improving operational efficiency, and supporting **evidence-based business analysis**.  
+Currently learning to apply analytical tools, gather system requirements, and communicate effectively with stakeholders in dynamic, data-driven environments.
 
-### 🔹 Hard Skills  
-- **Data Analysis Tools:** Microsoft Excel  
-- **Presentation Tools:** PowerPoint, Canva, Google Slides  
-- **Requirements Gathering & Documentation**  
-- **Project Management Basics**
+---
 
-### 🔹 Soft Skills  
-- Communication & Collaboration  
-- Innovative and Creative Problem Solving  
+### 🎓 Education
+**Mahidol University, Faculty of Information and Communication Technology**  
+2025 – 2029 (expected)
+
+---
+
+### 🛠️ Skills
+
+#### Hard Skills
+- Microsoft Excel (Data Analysis)  
+- PowerPoint, Canva, Google Slides (Presentation Design)  
+- Requirements Gathering & Documentation  
+- Project Management Basics  
+
+#### Soft Skills
+- Communication & Teamwork  
+- Creative Problem Solving & Innovation  
 - Time Management & Adaptability  
 - Critical Thinking & Attention to Detail  
 - Presentation & Reporting  
 
----
-
-## 🧰 Tools  
-
-| Tool | Level of Expertise |
-|------|--------------------|
-| 🧭 Notion | Expert |
-| 🎨 Canva | Expert |
-| 📱 Meta Business Suite | Expert |
-| ✂️ CapCut | Expert |
-| 📝 Microsoft Word | Intermediate |
-| 📊 Excel / Google Sheets | Beginner |
-| 🖼️ Adobe Photoshop | Beginner |
+#### Tools
+| Tool | Level |
+|------|-------|
+| Notion | Expert |
+| Canva | Expert |
+| Meta Business Suite | Expert |
+| CapCut | Expert |
+| Microsoft Word | Intermediate |
+| Microsoft Excel / Google Sheets | Beginner |
+| Adobe Photoshop | Beginner |
 
 ---
 
-## 🎓 Education  
-**Mahidol University** — Faculty of Information and Communication Technology  
-📆 *2025 – 2029 (expected)*  
-
----
-
-## 💼 Work Experience  
-
+### 💼 Work Experience
 **Social Media & Branding Assistant — Family Business**  
-📍 *Buriram, Thailand (2019 – Present)*  
+📍 Buriram, Thailand | 2019 – Present  
 
-- Created and managed the business **Facebook Page** to promote products and engage customers  
-- Analyzed post reach and engagement data to identify **effective promotion strategies**  
-- Designed branding layouts and concise product descriptions to enhance customer understanding  
-- Improved overall visibility through **creative marketing** and **data-driven insights**  
-
----
-
-## 💬 My Services  
-
-| Service | Description |
-|----------|-------------|
-| 🎤 **Presentation Design** | Creating impactful slides using PowerPoint or Canva |
-| 🤝 **Project Collaboration** | Supporting communication, documentation, and coordination |
-| 💻 **Tech Skills Support** | Assisting with productivity and digital tools |
-| 🎨 **Creative & Design Services** | Visual branding and content creation |
-| 🌐 **Community Management** | Building engagement through social media |
-| ✍️ **Content Creation** | Writing and designing digital marketing materials |
+- Managed Facebook Page to promote products and engage customers  
+- Analyzed post reach & engagement to optimize strategy  
+- Designed branding layouts and concise product descriptions  
+- Improved visibility with creative marketing & data-driven insights  
 
 ---
 
-## 📜 Certifications  
-🎯 *Actively exploring certifications in:*  
-- Business Analysis  
-- Data Analytics  
-*(To be added soon!)*  
+### 🎨 Services
+- **Presentation Design:** PowerPoint & Canva  
+- **Project Collaboration:** Documentation & task support  
+- **Tech Skills Support:** ICT tool assistance  
+- **Creative & Design Services:** Branding & visual content  
+- **Community Management:** Social media engagement  
+- **Content Creation:** Informative & aesthetic posts  
 
 ---
 
-## 🌱 Currently Learning  
+### 🌱 Currently Learning
 - Business Analysis Fundamentals  
 - Data Analytics & Visualization  
-- Communication and Stakeholder Management  
+- Communication & Stakeholder Management  
 
 ---
 
-## 🎯 Goals  
-- Grow as a **Business Analyst** and **Data-Driven Professional**  
-- Learn **Python**, **SQL**, and **Tableau** for analytics  
-- Collaborate on projects combining **tech + business innovation**  
+### 📜 Certifications
+🎯 Actively exploring certifications in Business Analysis & Data Analytics *(to be added soon!)*  
 
 ---
 
-## ✨ Fun Fact  
-I love turning raw data and creative ideas into meaningful stories that inspire action and impact.  
+
 
 ---
 
-### 📫 Connect With Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](http://www.linkedin.com/in/monsiri-yutthasarnsenee)  
-[![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:monsiriyutthasarnsenee@gmail.com)  
-[![Location](https://img.shields.io/badge/📍-Buriram%20|%20Bangkok-ff69b4)](#)
+<p align="center">
+<img src="https://img.shields.io/badge/Cozy-Pastel-FFB6C1" alt="Cozy Pastel Badge"/>
+<img src="https://img.shields.io/badge/Cute-Vibes-FCE4EC" alt="Cute Vibes Badge"/>
+</p>
 
----
 
-⭐️ *“Empowered by curiosity, driven by creativity, and inspired by data.”*
+
+
+
