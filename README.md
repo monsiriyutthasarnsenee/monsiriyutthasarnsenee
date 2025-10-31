@@ -7,6 +7,14 @@
 
 ---
 
+### 📬 Contact Me
+- **Phone:** +66-80-914-9398  
+- **Email:** monsiriyutthasarnsenee@gmail.com  
+- **LinkedIn:** [www.linkedin.com/in/monsiri-yutthasarnsenee](http://www.linkedin.com/in/monsiri-yutthasarnsenee)  
+- **Address:** Buriram, Thailand 31000 | Relocating to Bangkok  
+
+---
+
 ### ☁️ About Me
 I’m a first-year ICT student at Mahidol University, passionate about **data-driven decision making**, improving operational efficiency, and supporting **evidence-based business analysis**.  
 Currently learning to apply analytical tools, gather system requirements, and communicate effectively with stakeholders in dynamic, data-driven environments.
@@ -82,12 +90,7 @@ Currently learning to apply analytical tools, gather system requirements, and co
 
 
 
----
 
-<p align="center">
-<img src="https://img.shields.io/badge/Cozy-Pastel-FFB6C1" alt="Cozy Pastel Badge"/>
-<img src="https://img.shields.io/badge/Cute-Vibes-FCE4EC" alt="Cute Vibes Badge"/>
-</p>
 
 
 
