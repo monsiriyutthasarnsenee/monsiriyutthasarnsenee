@@ -3,15 +3,8 @@
 </p>
 
 <h1 align="center"> Monsiri Yutthasarnsenee </h1>
+
 <p align="center">First-year ICT student at Mahidol University | Passionate about bridging technology & business strategy</p>
-
----
-
-### 📬 Contact Me
-- **Phone:** +66-80-914-9398  
-- **Email:** monsiriyutthasarnsenee@gmail.com  
-- **LinkedIn:** [www.linkedin.com/in/monsiri-yutthasarnsenee](http://www.linkedin.com/in/monsiri-yutthasarnsenee)  
-- **Address:** Buriram, Thailand 31000 | Relocating to Bangkok  
 
 ---
 
@@ -42,16 +35,23 @@ Currently learning to apply analytical tools, gather system requirements, and co
 - Critical Thinking & Attention to Detail  
 - Presentation & Reporting  
 
-#### Tools
-| Tool | Level |
-|------|-------|
-| Notion | Expert |
-| Canva | Expert |
-| Meta Business Suite | Expert |
-| CapCut | Expert |
-| Microsoft Word | Intermediate |
-| Microsoft Excel / Google Sheets | Beginner |
-| Adobe Photoshop | Beginner |
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Notion-Expert-ff9de6?style=for-the-badge&logo=notion&logoColor=white" />
+  <img src="https://img.shields.io/badge/Canva-Expert-ffb6c1?style=for-the-badge&logo=canva&logoColor=white" />
+  <img src="https://img.shields.io/badge/Meta_Business_Studio-Expert-ffe25f?style=for-the-badge&logo=facebook&logoColor=white" />
+  <img src="https://img.shields.io/badge/CapCut-Expert-ff9de6?style=for-the-badge&logo=capcut&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft_Word-Intermediate-ffb6c1?style=for-the-badge&logo=microsoftword&logoColor=white" />
+  <img src="https://img.shields.io/badge/Excel_Sheets-Beginner-ffe25f?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Photoshop-Beginner-ff9de6?style=for-the-badge&logo=adobephotoshop&logoColor=white" />
+</p>
+
+
+
 
 ---
 
@@ -87,6 +87,21 @@ Currently learning to apply analytical tools, gather system requirements, and co
 🎯 Actively exploring certifications in Business Analysis & Data Analytics *(to be added soon!)*  
 
 ---
+
+<p align="center">
+  <a href="http://www.linkedin.com/in/monsiri-yutthasarnsenee" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:monsiriyutthasarnsenee@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/📄_Resume-5C6BC0?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+  </a>
+  <a href="tel:+66809149398" target="_blank">
+    <img src="https://img.shields.io/badge/📞_Phone-FF9DE6?style=for-the-badge&logo=phone&logoColor=white" />
+  </a>
+</p>
 
 
 
