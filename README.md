@@ -41,10 +41,10 @@ Currently learning to apply analytical tools, gather system requirements, and co
   <img src="https://img.shields.io/badge/Notion-Expert-ff9de6?style=for-the-badge&logo=notion&logoColor=white" />
   <img src="https://img.shields.io/badge/Canva-Expert-ffb6c1?style=for-the-badge&logo=canva&logoColor=white" />
   <img src="https://img.shields.io/badge/Meta_Business_Studio-Expert-ffe25f?style=for-the-badge&logo=facebook&logoColor=white" />
-  <img src="https://img.shields.io/badge/CapCut-Expert-ff9de6?style=for-the-badge&logo=capcut&logoColor=white" />
 </p>
 
 <p align="center">
+   <img src="https://img.shields.io/badge/CapCut-Expert-ff9de6?style=for-the-badge&logo=capcut&logoColor=white" />
   <img src="https://img.shields.io/badge/Microsoft_Word-Intermediate-ffb6c1?style=for-the-badge&logo=microsoftword&logoColor=white" />
   <img src="https://img.shields.io/badge/Excel_Sheets-Beginner-ffe25f?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
   <img src="https://img.shields.io/badge/Photoshop-Beginner-ff9de6?style=for-the-badge&logo=adobephotoshop&logoColor=white" />
