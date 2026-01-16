@@ -23,17 +23,20 @@ Currently learning to apply analytical tools, gather system requirements, and co
 ### 🛠️ Skills
 
 #### Hard Skills
-- Microsoft Excel (Data Analysis)  
-- PowerPoint, Canva, Google Slides (Presentation Design)  
-- Requirements Gathering & Documentation  
-- Project Management Basics  
+- Basic HTML, CSS, JavaScript , C language , Python
+- Design Tools : Adobe Photoshop , Figma
+- Data Analysis Tools : Microsoft Excel
+- Presentation Tools : PowerPoint, Canva, Google Slide
+- Requirements Gathering & Documentation
+- Project Management Basics 
 
 #### Soft Skills
-- Communication & Teamwork  
-- Creative Problem Solving & Innovation  
-- Time Management & Adaptability  
-- Critical Thinking & Attention to Detail  
-- Presentation & Reporting  
+- Communication
+- Teamwork 
+- Creative 
+- Time Management
+- Adaptability 
+- Problem Solving
 
 
 
