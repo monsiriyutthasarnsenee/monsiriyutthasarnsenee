@@ -67,27 +67,13 @@ Currently learning to apply analytical tools, gather system requirements, and co
 - Designed branding layouts and concise product descriptions  
 - Improved visibility with creative marketing & data-driven insights  
 
----
 
-### 🎨 Services
-- **Presentation Design:** PowerPoint & Canva  
-- **Project Collaboration:** Documentation & task support  
-- **Tech Skills Support:** ICT tool assistance  
-- **Creative & Design Services:** Branding & visual content  
-- **Community Management:** Social media engagement  
-- **Content Creation:** Informative & aesthetic posts  
 
----
-
-### 🌱 Currently Learning
-- Business Analysis Fundamentals  
-- Data Analytics & Visualization  
-- Communication & Stakeholder Management  
 
 ---
 
 ### 📜 Certifications
-🎯 Actively exploring certifications in Business Analysis & Data Analytics *(to be added soon!)*  
+*(to be added soon!)*  
 
 ---
 
